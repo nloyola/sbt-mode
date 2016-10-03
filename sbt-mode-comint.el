@@ -93,6 +93,7 @@ line.")
               ; newline that the user just inserted. Without this
               ; sometimes emacs will not give the user any feedback
               ; that the input has been sent.
+  (setq sbt:previous-command string)
   (comint-simple-send proc string))
 
 (defun sbt:ansi-filter (input)

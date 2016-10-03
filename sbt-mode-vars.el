@@ -60,6 +60,8 @@ If nil, outer projects are preferred."
   :group 'sbt
   :prefix "sbt:")
 
+(defvar-local sbt:previous-command sbt:default-command)
+
 (provide 'sbt-mode-vars)
 
 ;;; sbt-mode-vars.el ends here

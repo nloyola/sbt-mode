@@ -29,8 +29,6 @@
 (defvar sbt:info-face 'sbt:info)
 (defvar sbt:warning-face 'sbt:warning)
 
-(defvar-local sbt:previous-command sbt:default-command)
-
 (defvar sbt:command-history-temp nil)
 
 ;;;
